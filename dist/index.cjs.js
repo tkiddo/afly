@@ -9,8 +9,8 @@ function _interopDefaultLegacy (e) { return e && typeof e === 'object' && 'defau
 
 var React__default = /*#__PURE__*/_interopDefaultLegacy(React);
 
-const AfButton = () => {
-    return React__default["default"].createElement(antd.Button, null, "hello");
+const AfButton = (props) => {
+    return React__default["default"].createElement(antd.Button, Object.assign({}, props), props.children);
 };
 
 exports.AfButton = AfButton;

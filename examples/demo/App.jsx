@@ -5,7 +5,9 @@ import './App.css'
 const App = () => {
   return (
     <div>
-      <AfButton></AfButton>
+      <AfButton type="primary" size="large">
+        455
+      </AfButton>
     </div>
   )
 }
